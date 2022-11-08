@@ -106,5 +106,5 @@ console.log(foodArray.join(' and '));
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
-
-// use .concat() method
+let bothArray = foodArray.concat(animalArray);
+console.log('Foods and animals:', bothArray);
